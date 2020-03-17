@@ -25,8 +25,7 @@ def bubble_sort( arr ):
         for i in range(length):
             if arr[i] > arr[i+1]:
                 sorted = False
-                arr[i], arr[i+1] = arr[i+1], arr[i]
-                
+                arr[i], arr[i+1] = arr[i+1], arr[i] 
     return arr
 
 
